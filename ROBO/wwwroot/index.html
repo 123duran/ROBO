@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R.O.B.O.!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../scripts/index.js"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                R.O.B.O.!
+            </h1>
+            <p class="subtitle">
+                Robô Operacional Bináriamente Orientado
+            </p>
+        </div>
+    </section>
+    <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+            <div>
+                <img src="../img/robotic-arm.png" />
+                <p class="title">Braço Esquerdo</p>
+                <p class="title">Tensão no cotovelo<p>
+                <p class="text" id="cotoveloEsquerda">Em Repouso</p>
+                <p class="title">Rotação atual do pulso</p>
+                <p class="text" id="pulsoEsquerda">0</p>
+                <div class="buttons has-addons is-centered">
+                    <span class="button" id="btnAumentarTensaoEsquerda">Aumentar Tensão</span>
+                    <span class="button" id="btnDiminuirTensaoEsquerda">Diminuir Tensão</span>
+                    <span class="button" id="btnRotacaoPositivaEsquerda">Rotação Positiva</span>
+                    <span class="button" id="btnRotacaoNegativaEsquerda">Rotação Negativa</span>
+                </div>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <img src="../img/head.png" />
+                <p class="title">Cabeça</p>
+                <p class="title">Inclinação Atual<p>
+                <p class="text" id="inclinacaoCabeca">Em Repouso</p>
+                <p class="title">Rotação Atual</p>
+                <p class="text" id="rotacaoCabeca">0</p>
+                <div class="buttons has-addons is-centered">
+                    <span class="button" id="btnAumentarInclinacaoCabeca">Aumentar Inclinação</span>
+                    <span class="button" id="btnDiminuirInclinacaoCabeca">Diminuir Inclinação</span>
+                    <span class="button" id="btnRotacaoPositivaCabeca">Rotação Positiva</span>
+                    <span class="button" id="btnRotacaoNegativaCabeca">Rotação Negativa</span>
+                </div>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <img src="../img/robotic-arm-right.png" />
+                <p class="title">Braço Direito</p>
+                <p class="title">Tensão no cotovelo<p>
+                <p class="text" id="cotoveloDireita">Em Repouso</p>
+                <p class="title">Rotação atual do pulso</p>
+                <p class="text" id="pulsoDireita">0</p>
+                <div class="buttons has-addons is-centered">
+                    <span class="button" id="btnAumentarTensaoDireita">Aumentar Tensão</span>
+                    <span class="button" id="btnDiminuirTensaoDireita">Diminuir Tensão</span>
+                    <span class="button" id="btnRotacaoPositivaDireita">Rotação Positiva</span>
+                    <span class="button" id="btnRotacaoNegativaDireita">Rotação Negativa</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
